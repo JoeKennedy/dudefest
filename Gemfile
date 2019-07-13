@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 ruby '2.3.1'
 
+gem 'dotenv-rails', groups: [:development, :test]
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '5.0.0.1'
 
@@ -15,10 +17,8 @@ gem 'simple_form'
 gem 'validates_formatting_of'
 gem 'validates_timeliness'
 gem 'auto_html', '~> 1.6.4'
-gem 'devise'
-# Use this version of rails_admin until
-# https://github.com/sferik/rails_admin/pull/2737 is merged
-gem 'rails_admin', git: 'https://github.com/tmesquita/rails_admin'
+gem 'devise', ">= 4.6.0"
+gem 'rails_admin'
 gem 'cancancan'
 gem 'ckeditor'
 gem 'bootstrap-wysihtml5-rails'
@@ -61,6 +61,8 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 
 gem "nokogiri", ">= 1.8.2"
+
+gem "recaptcha"
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.

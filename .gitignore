@@ -21,3 +21,6 @@ public/sitemaps
 public/uploads
 public/#{Rails.root}
 public/tunes
+
+# Ignore .env
+/.env
