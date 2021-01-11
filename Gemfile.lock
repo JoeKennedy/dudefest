@@ -418,7 +418,7 @@ GEM
       nokogiri (~> 1.5)
       trollop (~> 2.1)
     rdoc (6.0.4)
-    redcarpet (3.4.0)
+    redcarpet (3.5.1)
     redis (4.1.0)
     remotipart (1.4.2)
     representable (3.0.4)
